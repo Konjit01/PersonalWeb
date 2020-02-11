@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id12542777_wisdom`
+-- Database: `wisdom`
 --
 CREATE DATABASE IF NOT EXISTS `wisdom` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 USE `wisdom`;
