@@ -27,9 +27,9 @@ class Pages extends CI_Controller{
         $data['title'] = ucfirst($page); // represents variables that we want to pass to the view
         $data['categories'] = $this->unit->get_categories();
         redirect('http://localhost/wisdom/users/login');
-        /*$this->load->view('templates/header', $data);
+        $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
-        $this->load->view('templates/footer');*/
+        $this->load->view('templates/footer');
     }
 
 }
