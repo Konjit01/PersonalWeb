@@ -478,7 +478,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `first_name`, `last_name`, `username`, `email`, `password`, `profile_pic`, `code`, `activated`, `created_at`) VALUES
 (64, 'Kumico', 'Woleta', 'Kumico', 'konjit.sile@yahoo.com', '001bfc9555cd273e77c06c43b203733b', 'avatar.jpg', 'IMDhN7oGLevq', 1, '2020-01-05 14:29:04'),
-(65, 'kon', 'kot', 'Axum', 'kon@gmail.com', '15ba77c905d14872b7375716acaf9cf7', 'axi.jpg', 'AWToHu8BbVSP', 0, '2020-02-05 20:20:55'),
+(65, 'Axum', 'Abrha', 'Axum', 'axum@gmail.com', '15ba77c905d14872b7375716acaf9cf7', 'axi.jpg', 'AWToHu8BbVSP', 0, '2020-02-05 20:20:55'),
 (66, 'Helen', 'Tariku', 'Helen', 'helen@gmail.com', '5fc7b240a1bf0dcfb9223c8c9b92ae48', 'avatar.jpg', 'n6YXfavbjRWP', 1, '2020-01-06 20:19:33'),
 (76, 'Samri', 'Sileshi', 'Samri', 'sa@gmail.com', '25f9e794323b453885f5181f1b624d0b', 'samri.jpg', 'NBfPngKrOy4R', 0, '2020-02-05 20:21:13'),
 (82, 'Konjit', 'Sileshi', 'Konjit', 'kkll6349@gmail.com', '001bfc9555cd273e77c06c43b203733b', '1996249975e1ce3ab6eede.jpg', '48sAcRSWbNOT', 1, '2020-01-13 21:39:55');
