@@ -52,9 +52,12 @@ class Admin extends CI_Controller{
         
         $this->pagination->initialize($config);
         
-        
+          
+        //$this->load->view('templates/header', $data);
         
         $this->load->view('admin/users_list', $data);
+          
+       /// $this->load->view('templates/footer', $data);
     }
     /*public function list_users(){
         $data ['title'] = 'All users';

@@ -66,7 +66,7 @@ class Units extends CI_Controller{
             $data['user'] = $this->user->get_profile_name($user_id);
         }
         $data['welcome'] = 'Welcome to TechWisdom, ';
-        $this->load->view('templates/header', $data);
+        $this->load->view('includes/header', $data);
         $this->load->view('pages/about', $data);
         $this->load->view('templates/footer');
         
@@ -203,7 +203,7 @@ class Units extends CI_Controller{
         $data['title'] = "Edit Units";
          $data['welcome'] = 'Welcome to TechWisdom, ';
         //$data['unit'] = $this->unit->edit_unit($id);
-        $this->load->view('templates/header', $data);
+        $this->load->view('includes/header', $data);
         $this->load->view('units/edit', $data);
         $this->load->view('templates/footer');
         

@@ -17,10 +17,10 @@ and open the template in the editor.
     <title></title>
   </head>
   <body>
-    <h1><?php echo $title; ?></h1>
+     <?php $this->load->view('includes/navbar'); ?>
     
     <div class="row">
-        <div class="container">
+        <div class="container" style ="padding-top:40px;">
             <div class="col-md-12">
                 
            
